@@ -1,0 +1,86 @@
+.bienvenue {
+    padding-top:7%;
+}
+
+.nav-link {
+    font-size: 1.35em;
+}
+
+[class*="card-product"] .img-wrap img {
+    height: 100%;
+    max-width: 100%;
+    width: auto;
+    display: inline-block;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.card-product-grid .img-wrap {
+    height: 220px;
+}
+
+.row {
+    overflow-x: auto;
+    flex-wrap: unset;
+}
+
+.img-wrap {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-wrap {
+    text-align: center;
+}
+
+.title {
+    color: black;
+}
+
+.card-product-grid .info-wrap {
+    padding: 18px 20px;
+}
+
+.price {
+    float: left;
+}
+
+.btn.btn-sm.btn-outline-primary.float-right {
+    float: right;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #3167eb;
+    border-color: #3167eb;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #3167eb;
+    border-color: #3167eb;
+}
+
+*, ::after, ::before {
+    box-sizing: content-box;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+}
+
+ul{
+  list-style:none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.marge{
+  margin-left: 10%;
+}
